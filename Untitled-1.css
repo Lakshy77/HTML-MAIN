@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Full height of viewport */
+    margin: 0; /* Reset default margin */
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Reset font weight */
+    margin: 20px 0; /* Margin for headings */
+}
+
+/*img{
+    width: 30%;    
+    display: block;
+    margin: 100px auto;
+    min-width: 272px;
+}
+/* Adjust margin for specific elements */
+img {
+    display: block; /* Ensures proper positioning */
+    margin: 0 auto; /* Auto margin horizontally centers the image */
+}
+input[type="text"],
+textarea {
+    width: 350px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+}
+
+p {
+    margin-bottom: 20px; /* Margin for paragraphs */
+}
+
+/* Style links */
+a {
+    color: #1a0dab; /* Google's link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style for visited links */
+a:visited {
+    color: #609; /* Google's visited link color */
+}
+
+/* Style for active links */
+a:active {
+    color: #d14836; /* Google's active link color */
+}

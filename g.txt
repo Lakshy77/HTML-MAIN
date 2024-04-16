@@ -1,0 +1,7 @@
+<div>
+    <link rel="stylesheet" href="styles.css">
+    <img src="https://w7.pngwing.com/pngs/523/198/png-transparent-google-logo-google-search-google-play-google-text-logo-number-thumbnail.png">
+    <input type="text">
+    <button id="search-button">Google Search</button>
+    <button id="search-button">I'm Feeling Lucky</button>
+</div>
