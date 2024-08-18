@@ -1,0 +1,9 @@
+PS D:\HTML MAIN\Traning> git remote -v
+origin  https://github.com/Lakshy77/CODE.git (fetch)
+origin  https://github.com/Lakshy77/CODE.git (push)
+PS D:\HTML MAIN\Traning> git checkout main
+error: pathspec 'main' did not match any file(s) known to git
+PS D:\HTML MAIN\Traning> git add .
+PS D:\HTML MAIN\Traning> git commit -m "commit"
+
+PS D:\HTML MAIN\Traning> git push origin main
