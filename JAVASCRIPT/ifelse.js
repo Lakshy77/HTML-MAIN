@@ -34,32 +34,43 @@
 // else{
 //     console.log("You are not eligible to drive");
 // }
-const myText = document.getElementById("myText");
-const mySumbit = document.getElementById("mySumbit");
-const result = document.getElementById("result");
-let age;
-mysumbit.onclick = function(){
-    age = myText.value;
-    age=Number(age)
-    if(age>=100){
-        result.textContent='You are too old to enter this site';
-    }
-    else if(age==0){
-        result.textContent='You cannot enter this site.You are just born';
+// const myText = document.getElementById("myText");
+// const mySumbit = document.getElementById("mySumbit");
+// const result = document.getElementById("result");
+// let age;
+// mysumbit.onclick = function(){
+//     age = myText.value;
+//     age=Number(age)
+//     if(age>=100){
+//         result.textContent='You are too old to enter this site';
+//     }
+//     else if(age==0){
+//         result.textContent='You cannot enter this site.You are just born';
 
-    }
-    else if(age>=18 && age<100){
-        result.textContent='You are old enough to enter this site';
+//     }
+//     else if(age>=18 && age<100){
+//         result.textContent='You are old enough to enter this site';
 
-    }
-    else if(age<0){
-        result.textContent='Your age cannot be below 0';
+//     }
+//     else if(age<0){
+//         result.textContent='Your age cannot be below 0';
 
-    }
-    else{
-        result.textContent='You must be 18+ to enter this site';
+//     }
+//     else{
+//         result.textContent='You must be 18+ to enter this site';
 
-    }
+//     }
     
 
-}
+// }
+//WHILE LOOP REPEATS A BLOCK OF CODE WHILE A CONDITION IS TRUE
+
+// let username="";
+// // while(username===""){
+// //     username = window.prompt(`Enter your name`);
+// // }
+// do{
+//         username = window.prompt(`Enter your name`);
+//     }while(username==="" || username===null)
+
+// console.log(`Hello ${username}`);
